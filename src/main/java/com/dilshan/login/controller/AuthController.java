@@ -73,7 +73,6 @@ public class AuthController {
     // goole ac save
 
 
-    // AuthController.java තුලට මෙම නව method එක එකතු කරන්න
     @PostMapping("/google")
     public ResponseEntity<?> googleLogin(@RequestBody SignUpRequest googleUser) { // We can reuse the SignUpRequest DTO
         // Check if user with this email already exists
